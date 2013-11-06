@@ -2,10 +2,12 @@
 
 Sébastien: Hi, Sébastien here.
 
-Frédéric: And Frédéric ! Today, Sebastien will show us how to visualize a sample from the Human Microbiome Project. So, just to put us in context, what's this microbiome project ?
+Frédéric: And Frédéric ! Today, we will show how to visualize a sample from the Human Microbiome Project with Ray
+Cloud Browser. So, just to put us in context, what's this microbiome project ?
 
 Sébastien: Basically, it's an effort to study the bacteria that we
-host on and in our human bodies.
+host on and in our human bodies. Some of these bacteria are very hard to grow in a laboratory.
+So the trick is to read bacterial DNA without growing them first using DNA sequencing.
 
 Frédéric: Can you describe this sample a little bit ?
 
@@ -28,13 +30,15 @@ and finally, we select a place where we want to start and we go there.
 The blue moving squares located in the top of the display tells us that
 it is loading.
 
-The circles are DNA sequences found in the sample and the links represent
-genetic overlap of all but one letter (these letters are called nucleotides).
+Sébastien: Now that's loaded, Frédéric will explain what we see.
 
+Frédéric: The circles with a letter inside (A, T, C, or G) represent DNA sequences found in the sample and the links 
+between them are genetic overlap of all but one letter (these letters are called nucleotides).
 
-The life bars on top of each small circle represents its abundancy.
+Frédéric: Hovering over a circle shows us its true sequence in the bottom left.
+Also, the life bar on top of each small circle represents its abundancy.
 
-Frédéric: So,  what can I do with that ?
+Frédéric: So, Sébastien what can I do with that viewer ?
 
 Sébastien: Well, you can explore huge DNA graphs using a web browser. That's cool, is it not ?
 
@@ -42,14 +46,20 @@ Sébastien: For example, I can select a part of this graph to inspect its DNA se
 
 Sébastien selects DNA sequences
 
-Sébastien: I can also zoom in and out and move around.
+Sébastien: I can also zoom in and out and move around using the controls in the top-right corner.
 
 Frédéric: What else can you do with that toy ?
 
-Sébastien: Well, the main entertaining feature is to press thet play button and let
+Sébastien: Well, the main entertaining feature is to press the play button and let
 the thing transport you in places you have never been before. Let's start !
 
 Sébastien presses the play button.
 
+Sébastien explains what we see (to complete)
 
-(add something about the science here)
+Frédéric: That's nice, but where's the science ?
+
+Sébastien: with this, we inspect the structural relationships between DNA sequences found in a given
+sample. For example, here we can see one repeated region unwind into numerous strings that use it.
+
+

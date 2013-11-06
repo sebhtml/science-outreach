@@ -1,0 +1,17 @@
+This video contains the visualization of sample SRS011134 from the Human Microbiome Project.
+The DNA analyzed is genomic and is from a stool sample.
+
+Sample: http://sra.dnanexus.com/samples/SRS011134
+
+Software: http://denovoassembler.sourceforge.net/
+
+The graph and assembled sequences were generated with Ray 2.3.0
+
+
+Some related videos:
+
+Earth Microbiome Project: Rick Stevens at TEDxNaperville 
+https://www.youtube.com/watch?v=avsSuKlZSuA
+
+Jonathan Eisen at TEDMED 2012 
+https://www.youtube.com/watch?v=YN1MDwPpch0

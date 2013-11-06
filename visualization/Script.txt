@@ -1,0 +1,58 @@
+(2 minutes)
+
+Sébastien: Hi, Sébastien here.
+
+Frédéric: and Frédéric !
+
+Sébastien: Today, we will visualize with you guys a sample from the Human Microbiome Project.
+
+Frédéric: What's this microbiome project ?
+
+Sébastien: Basically, it's an effort to study the bacteria that we
+host on and in our human bodies.
+
+Frédéric: Can you describe this sample a little bit ?
+
+Sébastien: Sure. The sample is SRS011134 (see link in the comments). Researchers from the 
+Human Microbiome Project extracted DNA from a human male's stool. This DNA is presumably mostly
+from bacterial source. And now we have a bunch of files containing DNA data for that on
+a computer.
+
+Frédéric: But... How large is the data ?
+
+Sébastien: About 13 Gigabytes and it's compressed too.
+
+Now I'll show you how we can visualize this data.
+
+Sébastien clicks the link
+
+Sébastien: so first, we have to select the sample. After that, we select a section (there's just one here),
+and finally, we select a place where we want to start and we go there.
+
+The blue moving squares located in the top of the display tells us that
+it is loading.
+
+The circles are DNA sequences found in the sample and the links represent
+genetic overlap of all but one letter (these letters are called nucleotides).
+
+
+The life bars on top of each small circle represents its abundancy.
+
+Frédéric: So,  what can I do with that ?
+
+Sébastien: Well, you can explore huge DNA graphs using a web browser. That's cool, is it not ?
+
+Sébastien: For example, I can select a part of this graph to inspect its DNA sequence.
+
+Sébastien selects DNA sequences
+
+Sébastien: I can also zoom in and out and move around.
+
+Frédéric: What else can you do with that toy ?
+
+Sébastien: Well, the main entertaining feature is to press thet play button and let
+the thing transport you in places you have never been before. Let's start !
+
+Sébastien presses the play button.
+
+

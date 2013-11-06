@@ -2,11 +2,7 @@
 
 Sébastien: Hi, Sébastien here.
 
-Frédéric: and Frédéric !
-
-Sébastien: Today, we will visualize with you guys a sample from the Human Microbiome Project.
-
-Frédéric: What's this microbiome project ?
+Frédéric: And Frédéric ! Today, Sebastien will show us how to visualize a sample from the Human Microbiome Project. So, just to put us in context, what's this microbiome project ?
 
 Sébastien: Basically, it's an effort to study the bacteria that we
 host on and in our human bodies.
@@ -18,7 +14,7 @@ Human Microbiome Project extracted DNA from a human male's stool. This DNA is pr
 from bacterial source. And now we have a bunch of files containing DNA data for that on
 a computer.
 
-Frédéric: But... How large is the data ?
+Frédéric: And how large is the data ?
 
 Sébastien: About 13 Gigabytes and it's compressed too.
 

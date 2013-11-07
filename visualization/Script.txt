@@ -22,7 +22,7 @@ Sébastien: About 13 Gigabytes and it's compressed too.
 
 Now I'll show you how we can visualize this data.
 
-Sébastien clicks the link
+Sébastien clicks the link http://genome.ulaval.ca:10208/client/
 
 Sébastien: so first, we have to select the sample. After that, we select a section (there's just one here),
 and finally, we select a place where we want to start and we go there.

@@ -1,17 +1,25 @@
+Display a place with a lot of genomi elements during 4 seconds.
+
 Sébastien: Hi, Sébastien here.
 
 Sébastien: Today, I will show how to visualize a sample from the Human Microbiome Project with Ray
 Cloud Browser. So, just to put us in context, what's this microbiome project ?
 
+Display PDF http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3564958/pdf/nihms378076.pdf during 1 second)
+
 Sébastien: Basically, it's an effort to study the bacteria that we
 host on and in our human body. Some of these bacteria are very hard to grow in a laboratory.
 
-Sébastien: So the trick is to read bacterial DNA without growing them first using DNA sequencing.
+Sébastien: So the trick is to read bacterial DNA without growing bacteria in a laboratory.
+This task is done using DNA sequencers, some sort of expensive appliances a little bit bigger
+than a oven.
 
 Sébastien: Here's is a description of the sample I am going to visualize.
 
 Sébastien: The sample is SRS011134 (see link in the comments). Researchers from the 
 Human Microbiome Project extracted DNA from a human male's stool.
+
+Display ENA page for this sample.
 
 Sébastien: This DNA is presumably mostly
 from bacterial source. And now we have a bunch of files containing DNA data for that on
@@ -19,6 +27,8 @@ a computer.
 
 Sébastien: How large is the data ?
 About 13 Gigabytes and it's compressed too.
+
+Show 2 second a Nautilus Windows (Gnome Shell) with the files
 
 Sébastien: Now I'll show you how we can visualize this data.
 
@@ -34,6 +44,8 @@ Sébastien: Now that's loaded, I will explain what we see.
 
 Sébastien: The circles with a letter inside (A, T, C, or G) represent DNA sequences found in the sample and the links 
 between them are genetic overlap of all but one letter (these letters are called nucleotides).
+
+Sébastien: The colored paths we see were computed using Ray, an assembly software.
 
 Sébastien: Hovering over a circle shows us its true sequence in the bottom left corner.
 Also, the life bar on top of each small circle represents its abundancy in the sample.
@@ -51,7 +63,7 @@ Sébastien: What else can I do with that toy ?
 
 Sébastien: For me, the main entertaining feature is to press the play button and let
 the thing transport me in places I have never been before. Let's start !
-Sébastien presses the play button.
+Sébastien presses the play button (go left).
 Sébastien explains what we see.
 
 Sébastien: That's nice, but where's the science ?
@@ -64,10 +76,10 @@ Sébastien presses play.
 A deadend is reached.
 
 Sébastien: We have now reached a deadend in the graph. A deadend means that at this location,
-there is no sequencing data available or it can also mean that the assembly software
-made a mistake.
+there is no sequencing data available. Pressing the graphs button shows the sequencing depth
+at each position in the path. With this, we see the drop at the end.
 
-Sébastien: The colored paths we see were computed using Ray.
+Sébastien: A deadend can also mean that the assembly software went the wrong way.
 
 Sébastien: I showed the end of a DNA path in this graph.
 

@@ -15,16 +15,16 @@ So the trick is to read bacterial DNA without growing them first using DNA seque
 
 Another trick is to use computers to analyze the data.
 
-Here's Can you describe this sample a little bit ?
+Here's is a description of the sample I am going to visualize.
 
 The sample is SRS011134 (see link in the comments). Researchers from the 
 Human Microbiome Project extracted DNA from a human male's stool. This DNA is presumably mostly
 from bacterial source. And now we have a bunch of files containing DNA data for that on
 a computer.
 
-Sébastien: And how large is the data ?
+How large is the data ?
 
-Sébastien: About 13 Gigabytes and it's compressed too.
+About 13 Gigabytes and it's compressed too.
 
 Now I'll show you how we can visualize this data.
 

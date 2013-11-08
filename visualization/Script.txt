@@ -1,71 +1,85 @@
-(2 minutes)
+Sébastien: Hi, Sébastien here.
 
-Script by Sébastien Boisvert & Frédéric Raymond
-
-Sébastien:
-
-Hi, Sébastien here.
-
-Today, I will show how to visualize a sample from the Human Microbiome Project with Ray
+Sébastien: Today, I will show how to visualize a sample from the Human Microbiome Project with Ray
 Cloud Browser. So, just to put us in context, what's this microbiome project ?
 
-Basically, it's an effort to study the bacteria that we
-host on and in our human bodies. Some of these bacteria are very hard to grow in a laboratory.
-So the trick is to read bacterial DNA without growing them first using DNA sequencing.
+Sébastien: Basically, it's an effort to study the bacteria that we
+host on and in our human body. Some of these bacteria are very hard to grow in a laboratory.
 
-Another trick is to use computers to analyze the data.
+Sébastien: So the trick is to read bacterial DNA without growing them first using DNA sequencing.
 
-Here's is a description of the sample I am going to visualize.
+Sébastien: Here's is a description of the sample I am going to visualize.
 
-The sample is SRS011134 (see link in the comments). Researchers from the 
-Human Microbiome Project extracted DNA from a human male's stool. This DNA is presumably mostly
+Sébastien: The sample is SRS011134 (see link in the comments). Researchers from the 
+Human Microbiome Project extracted DNA from a human male's stool.
+
+Sébastien: This DNA is presumably mostly
 from bacterial source. And now we have a bunch of files containing DNA data for that on
 a computer.
 
-How large is the data ?
-
+Sébastien: How large is the data ?
 About 13 Gigabytes and it's compressed too.
 
-Now I'll show you how we can visualize this data.
+Sébastien: Now I'll show you how we can visualize this data.
 
-Sébastien clicks the link http://genome.ulaval.ca:10208/client/
+Sébastien clicks the link http://genome.ulaval.ca:10208/client/ (contig-135, 1100)
 
 Sébastien: so first, we have to select the sample. After that, we select a section (there's just one here),
 and finally, we select a place where we want to start and we go there.
 
-The blue moving squares located in the top of the display tells us that
+Sébastien: The blue moving squares located in the top of the display tells us that
 it is loading.
 
-Sébastien: Now that's loaded, Sébastien will explain what we see.
+Sébastien: Now that's loaded, I will explain what we see.
 
 Sébastien: The circles with a letter inside (A, T, C, or G) represent DNA sequences found in the sample and the links 
 between them are genetic overlap of all but one letter (these letters are called nucleotides).
 
-Sébastien: Hovering over a circle shows us its true sequence in the bottom left.
-Also, the life bar on top of each small circle represents its abundancy.
+Sébastien: Hovering over a circle shows us its true sequence in the bottom left corner.
+Also, the life bar on top of each small circle represents its abundancy in the sample.
 
-Sébastien: So, Sébastien what can I do with that viewer ?
+Sébastien: What can I do with that viewer ?
 
-Sébastien: Well, you can explore huge DNA graphs using a web browser. That's cool, is it not ?
+Sébastien: Well, I can explore huge DNA graphs using a web browser. That's cool, is it not ?
 
 Sébastien: For example, I can select a part of this graph to inspect its DNA sequence.
-
 Sébastien selects DNA sequences
 
 Sébastien: I can also zoom in and out and move around using the controls in the top-right corner.
 
-Sébastien: What else can you do with that toy ?
+Sébastien: What else can I do with that toy ?
 
-Sébastien: Well, the main entertaining feature is to press the play button and let
-the thing transport you in places you have never been before. Let's start !
-
+Sébastien: For me, the main entertaining feature is to press the play button and let
+the thing transport me in places I have never been before. Let's start !
 Sébastien presses the play button.
-
-Sébastien explains what we see (to complete)
+Sébastien explains what we see.
 
 Sébastien: That's nice, but where's the science ?
 
-Sébastien: with this, we inspect the structural relationships between DNA sequences found in a given
+Sébastien: With this tool, I can inspect the structural relationships between DNA sequences found in a given
 sample. For example, here we can see one repeated region unwind into numerous strings that use it.
 
+Sébastien: Let's resume our journey in this part of the graph.
+Sébastien presses play.
+A deadend is reached.
+
+Sébastien: We have now reached a deadend in the graph. A deadend means that at this location,
+there is no sequencing data available or it can also mean that the assembly software
+made a mistake.
+
+Sébastien: The colored paths we see were computed using Ray.
+
+Sébastien: I showed the end of a DNA path in this graph.
+
+Sébastien: Most of the paths are easy to find in the graph because sizable part of this
+graph is just long linear stretches of DNA. Let me show you an example.
+
+Sébastien changes location to the middle of a region.
+As you can see, this is easy to go from here to there because there is just
+one way to do it.
+
+Sébastien: This completes what I wanted to share with you today.
+
+Sébastien pops in the screen
+Sébastien: Thank you for watching, and happy visualization of your DNA data !
 
